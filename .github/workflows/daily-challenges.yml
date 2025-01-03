@@ -21,7 +21,7 @@ jobs:
 
       - name: Commit and Push Results
         env:
-          TOKEN: ${ secrets.GH_TOKEN }
+          TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           git config --local user.email "brandonlum17@gmail.com"
           git config --local user.name "bryzle"
