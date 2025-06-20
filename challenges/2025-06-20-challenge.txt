@@ -1,0 +1,2 @@
+Today's Challenge (2025-06-20):
+Reverse a string without using built-in functions.
